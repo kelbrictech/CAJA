@@ -1,1 +1,21 @@
-{"name":"caja","main":"src/index.js","compatibility_date":"2026-09-27","assets":{"directory":"./public","binding":"ASSETS","not_found_handling":"single-page-application"}}
+{
+  "name": "caja",
+  "main": "src/index.js",
+  "compatibility_date": "2026-09-27",
+  "assets": {
+    "directory": "./public",
+    "binding": "ASSETS",
+    "not_found_handling": "single-page-application"
+  }
+
+  // Phase 3 cloud bindings: uncomment after resources are created.
+  // "d1_databases": [{
+  //   "binding": "DB",
+  //   "database_name": "caja-vault",
+  //   "database_id": "REPLACE_WITH_D1_DATABASE_ID"
+  // }],
+  // "r2_buckets": [{
+  //   "binding": "VAULT_ASSETS",
+  //   "bucket_name": "caja-vault-assets"
+  // }]
+}
