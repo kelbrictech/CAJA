@@ -10,3 +10,17 @@
 }
 .sortOptions{display:flex;align-items:center;gap:10px;margin-left:auto;color:var(--muted);font-size:13px}.sortOptions select{border:1px solid var(--line);border-radius:10px;background:var(--panel);color:var(--text);padding:9px 30px 9px 11px}
 @media(max-width:760px){.sortOptions{display:none;margin:8px 0 0;width:100%;align-items:center;justify-content:space-between}.sortOptions.open{display:flex}.sortOptions select{flex:1;max-width:72%}}
+/* Phase 2 card/filter cleanup */
+.noPhoto{height:72px;padding:16px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid var(--line);background:linear-gradient(135deg,#15130f,#0d0d0b)}
+.noPhoto span{font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
+.noPhoto b{font-family:Cinzel,serif;font-size:18px;font-weight:400;color:var(--gold2);white-space:nowrap}
+.filters{min-width:0}
+.filterRow,.filters{overflow:visible}
+.chips{display:flex;flex-wrap:wrap;gap:8px;min-width:0}
+.chips button{flex:0 0 auto}
+@media(max-width:760px){
+ .noPhoto{height:58px;padding:12px 14px}
+ .noPhoto b{font-size:15px}
+ .chips{flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none;padding-bottom:3px}
+ .chips::-webkit-scrollbar{display:none}
+}
