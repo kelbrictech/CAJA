@@ -8,3 +8,5 @@
  .filters .chip{width:100%;text-align:left}
  .photo img{font-size:0}
 }
+.sortOptions{display:flex;align-items:center;gap:10px;margin-left:auto;color:var(--muted);font-size:13px}.sortOptions select{border:1px solid var(--line);border-radius:10px;background:var(--panel);color:var(--text);padding:9px 30px 9px 11px}
+@media(max-width:760px){.sortOptions{display:none;margin:8px 0 0;width:100%;align-items:center;justify-content:space-between}.sortOptions.open{display:flex}.sortOptions select{flex:1;max-width:72%}}
