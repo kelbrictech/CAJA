@@ -21,8 +21,8 @@ npx wrangler deploy
 Verify:
 
 ```powershell
-Invoke-RestMethod https://caja.arjayb-fb.workers.dev/api/sync/config
-Invoke-RestMethod https://caja.arjayb-fb.workers.dev/api/status
+Invoke-RestMethod https://caja.kelbrictech.workers.dev/api/sync/config
+Invoke-RestMethod https://caja.kelbrictech.workers.dev/api/status
 ```
 
 Expected after activation: `d1: true` and `r2: true`.
